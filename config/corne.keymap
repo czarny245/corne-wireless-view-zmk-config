@@ -24,7 +24,16 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I         &kp O    &kp P     &kp BSPC
 &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_ALT
+                         &kp LGUI  &mo 2  &kp SPACE    &kp RET  &mo 3  &kp LEFT_ALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp TAB    &kp APOS  &kp COMMA  &kp DOT   &kp P  &kp Y        &kp F      &kp G  &kp C     &kp R  &kp L  &kp BSPC
+&kp LCTRL  &kp A     &kp O      &kp E     &kp U  &kp I        &kp D      &kp H  &kp T     &kp N  &kp S  &kp MINUS
+&kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K  &kp X        &kp B      &kp M  &kp W     &kp V  &kp Z  &kp RSHFT
+                                &kp LGUI  &mo 2  &kp SPACE    &kp ENTER  &mo 3  &kp LALT
             >;
         };
 
@@ -55,17 +64,8 @@
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR       &kp PRCNT           &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &trans    &trans  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &to 0     &to 3   &trans    &trans         &kp K_VOL_UP2       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&kp LSHFT  &tog 0    &tog 1  &trans    &trans         &kp K_VOL_UP2       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &trans         &kp SPACE           &kp RET    &trans     &kp RALT
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&kp TAB    &kp APOS  &kp COMMA  &kp DOT   &kp P  &kp Y        &kp F      &kp G  &kp C     &kp R  &kp L  &kp BSPC
-&kp LCTRL  &kp A     &kp O      &kp E     &kp U  &kp I        &kp D      &kp H  &kp T     &kp N  &kp S  &kp MINUS
-&kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K  &kp X        &kp B      &kp M  &kp W     &kp V  &kp Z  &kp RSHFT
-                                &kp LGUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp LALT
             >;
         };
     };
